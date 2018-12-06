@@ -10,7 +10,7 @@ headerEl.textContent = "Welcome to the Selam blog" ;
 
 let headerE2 = document.querySelectorAll('.article__header');
 for(let i=0 ; i<headerE2.length ; i++){
-headerE2[i].classList.replace('article__header' , 'article__header__important');}
+headerE2[i].classList.add('article__header' , 'important');}
 
 // Obtain a reference the element with a class of dashed and remove it.
 
